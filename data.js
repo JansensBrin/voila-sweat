@@ -79,7 +79,7 @@ const PRODUCTS = [
       "pina-colada.jpg",
       "pinky-purple.jpg",
       "pistachio-green.jpg",
-      "platinum-grey.jpg",
+      "platinium-grey.jpg",
       "plum.jpg",
       "pumpkin-pie.jpg",
       "purple.jpg",
@@ -97,7 +97,8 @@ const PRODUCTS = [
       "steel-grey.jpg",
       "storm-grey.jpg",
       "sun-yellow.jpg",
-      "teal.png",
+      "sunset-orange.jpg",
+      "teal.jpg",
       "tropical-blue.jpg",
       "true-violet.jpg",
       "turquoise-surf.jpg",
@@ -163,7 +164,7 @@ const PRODUCTS = [
       "oxford-navy.jpg",
       "peppermint.jpg",
       "pistachio-green.jpg",
-      "platinum-grey.jpg",
+      "platinium-grey.jpg",
       "plum.jpg",
       "pumpkin-pie.jpg",
       "purple.jpg",
@@ -177,7 +178,7 @@ const PRODUCTS = [
       "steel-grey.jpg",
       "storm-grey.jpg",
       "sun-yellow.jpg",
-      "turquiose.jpg",
+      "turquoise-surf.jpg",
       "vanilla-milkshake.jpg"
     ]
   }
@@ -215,6 +216,7 @@ const PRODUCTS = [
       "royal-blue.jpg",
       "sapphire-blue.jpg",
       "sky-blue.jpg",
+      "solid-charcoal.jpg",
       "steel-grey.jpg",
       "storm-grey.jpg",
       "sun-yellow.jpg"
