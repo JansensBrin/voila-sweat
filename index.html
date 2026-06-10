@@ -9,10 +9,19 @@
 <body>
   <header class="page-header">
     <h1>Choix des sweats</h1>
-    <p>Catalogue visuel des couleurs disponibles.</p>
   </header>
 
-  <main id="app"></main>
+  <main>
+    <section class="product-filter" aria-labelledby="productFilterTitle">
+      <h2 id="productFilterTitle">Filtrer le catalogue</h2>
+      <label for="productSelect">
+        Type de sweat
+        <select id="productSelect"></select>
+      </label>
+    </section>
+
+    <div id="app"></div>
+  </main>
 
   <dialog id="preview">
     <button id="closePreview" aria-label="Fermer">×</button>

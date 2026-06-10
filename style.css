@@ -27,6 +27,44 @@ main {
   padding: 28px;
 }
 
+.product-filter {
+  display: flex;
+  align-items: end;
+  gap: 28px;
+  margin-bottom: 32px;
+  padding: 20px 24px;
+  background: white;
+  border: 1px solid #e2ddd4;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0,0,0,.07);
+}
+
+.product-filter h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.product-filter label {
+  display: grid;
+  flex: 1;
+  max-width: 420px;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.product-filter select {
+  width: 100%;
+  min-height: 46px;
+  padding: 0 42px 0 13px;
+  border: 1px solid #bdb7ad;
+  border-radius: 10px;
+  background: white;
+  color: #222;
+  font: inherit;
+  font-size: 16px;
+}
+
 .product {
   margin-bottom: 48px;
 }
@@ -106,7 +144,65 @@ dialog::backdrop {
   cursor: pointer;
 }
 
+@media (max-width: 700px) {
+  .page-header {
+    padding: 22px 18px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  main {
+    padding: 16px;
+  }
+
+  .product-filter {
+    display: grid;
+    gap: 14px;
+    margin-bottom: 24px;
+    padding: 18px;
+    border-radius: 18px;
+  }
+
+  .product-filter h2 {
+    font-size: 22px;
+  }
+
+  .product-filter select {
+    min-height: 48px;
+  }
+
+  .product h2 {
+    font-size: 23px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .card {
+    padding: 8px;
+  }
+
+  .card img {
+    height: 130px;
+  }
+
+  dialog {
+    padding: 18px;
+  }
+
+  #preview img {
+    max-width: calc(100vw - 52px);
+    max-height: 68vh;
+  }
+}
+
 @media print {
+  .product-filter { display: none; }
+  .product[hidden] { display: block; }
   .page-header { padding: 10px; }
   main { padding: 10px; }
   .grid {
